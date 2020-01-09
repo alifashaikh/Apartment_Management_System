@@ -1,0 +1,198 @@
+ul{
+  margin:1px;
+  padding:1px;
+  list-style:none;
+}
+ul li{
+  float:left;
+  width:300px;
+  height:40px;
+    background-color:black;
+    opacity:.8;
+    line-height:40px;
+    text-align:center;
+    float-size:10px;
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+  ul li a{
+
+    text-decoration-color:black;
+    color:darkgrey;
+    display:block; 
+}
+ul li a:hover{
+  background-color:cyan;
+ text-decoration-color: black; 
+}
+ul li ul li{
+  display:none;
+
+}
+ul li:hover ul li{
+  display:block;
+}
+.loginbox{
+  width:320px;
+  height:620px;
+  background:#000000;
+  color:#00ffff;
+  top:50%;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+h1{
+  margin:0;
+  padding:0 0 20px;
+  text-align:center;
+  font-size:22px;
+}
+.loginbox p{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+}
+.loginbox input{
+  width:100%;
+  margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="password"],input[type="email"],input[type="phonenumber"]
+{
+  border:none;
+  border-bottom: 2px solid #00ffff;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#fff;
+  font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#fb2525;
+  color:#fff;
+  font-size:18px;
+  border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+  cursor:pointer;
+  background: #ffc107;
+  color:#000;
+}
+.loginbox a{
+  text-decoration:none;
+  font-size: 12px;
+  line-height: 20px;
+  color:darkgrey;
+}
+.loginbox a:hover
+{
+  color:#ffc107
+  ;
+}
+.loginbox input[type="cancel"]
+{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#fb2525;
+  color:#fff;
+  font-size:18px;
+  border-radius:20px;
+  text-align: center;
+}
+.loginbox input[type="cancel"]:hover
+{
+  cursor:pointer;
+  background: #ffc107;
+  color:#000;
+}
+.loginbox a{
+  text-decoration:none;
+  font-size: 12px;
+  line-height: 20px;
+  color:darkgrey;
+}
+.loginbox a:hover
+{
+  color:#ffc107
+  ;
+}
+.box{
+  width:380px;
+  height:400px;
+  background:#000000;
+  color:#00ffff;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding:70px 30px;
+}
+.avatar{
+  width:10px;
+  height:10px;
+  border-radius:10%;
+  position:absolute;
+  top:-50px;
+  left:calc(10%-10px);
+}
+h2{
+  margin:0;
+  padding:0 0 20px;
+  text-align:center;
+  font-size:28px;
+  posistion:absolute;
+}
+
+.box input{
+  width:100%;
+  margin-bottom:20px;
+}
+.box input[type="text"], input[type="text"],input[type="email"],input[type="password"],input[type="password"]
+{
+  border:none;
+  border-bottom:1px solid #00ffff ;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#ff0000;
+  font-size:16px;
+}
+
+
+.box input[type="Submit"]
+{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#fb2525;
+  color:#fff;
+  font-size:18px;
+  border-radius:20px;
+}
+.box input[type="Submit"]:hover
+{
+  cursor:pointer;
+  background:#ffc107;
+  color:#000;
+}
+.box a{
+  text-decoration:none;
+  font-size:12px;
+  line-heigth:20px;
+  color:darkgrey;
+}
+.box a:hover
+{
+  color:#000000;
+}
